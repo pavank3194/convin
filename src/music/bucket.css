@@ -1,0 +1,26 @@
+
+.bucket-names{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.bucket-names div{
+    padding: 5rem;
+    background: green;
+    border-radius: 15px;
+    border-right: 5px;
+}
+.bucket-names div:hover{
+    background-color: aquamarine;
+}
+.bucket-names div a{
+    padding: 5rem;
+    padding-left: 15rem;
+    padding-right: 20rem;
+    color: black;
+}
+a{
+    text-decoration: none;
+}

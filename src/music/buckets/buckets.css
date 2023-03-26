@@ -1,0 +1,29 @@
+/* *{
+    overflow: hidden;
+} */
+.cards-content{
+    display: block;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.cards-content li{
+    list-style: none;
+    padding: 10px;
+}
+.cards-content li:hover{
+    padding: 10px;
+    margin: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.cards-content img,.cards-content input{
+    float: right;
+    padding-left: 10px;
+}
+.fas{
+    float: right;
+    gap: 10px;
+    padding-left: 20px;
+}

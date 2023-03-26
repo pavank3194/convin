@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "pavan kalyan",
+      "link": "www.google.com",
+      "id": 1
+    }
+  ],
+  "posts": [],
+  "entSongs": [
+    {
+      "name": "whatsup",
+      "link": "www.whatsup.com",
+      "id": 11
+    },
+    {
+      "name": "pavan kalyan",
+      "link": "www.google.com",
+      "id": 12
+    },
+    {
+      "name": "youtube",
+      "link": "www.youtube.com",
+      "id": 13
+    },
+    {
+      "name": "Instagram",
+      "link": "www.Instagram.com",
+      "id": 14
+    }
+  ],
+  "entVideos": [
+    {
+      "name": "www.google.com",
+      "link": "pavan kalyan",
+      "id": 1
+    }
+  ],
+  "dvtSongs": [],
+  "eduVideos": [
+    {
+      "name": "pavan",
+      "link": "",
+      "id": 1
+    },
+    {
+      "name": "Zum",
+      "link": "www.zum.com",
+      "id": 2
+    }
+  ]
+}
