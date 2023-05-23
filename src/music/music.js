@@ -6,7 +6,7 @@ import './music.css';
 
 import BucketsSwitch from "./bucketsSwitch";
 
-const MediaPlayer = () => {
+function MediaPlayer () {
   
 
   return (
