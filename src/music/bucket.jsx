@@ -7,6 +7,7 @@ function Bucket() {
     <div>
       <div className="bucket-names">
         <div className="bucket1">
+          <a href="/entSongs"><b>Entertainment Songs2</b></a>
           <a href="/entSongs"><b>Entertainment Songs1</b></a>
         </div>
         <div className="bucket2">
