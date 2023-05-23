@@ -15,7 +15,7 @@ function MediaPlayer () {
         <b>CONVIN Music Player</b>
       </div>
       <div className="username">
-        <button disabled="disabled"><b>Pavan Kalyan</b> </button>
+        <button disabled="disabled"><b>Pavan Kalyan Bhukya</b> </button>
       </div>
       <div className="add-bucket">
         <BucketsSwitch/>
