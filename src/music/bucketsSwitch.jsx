@@ -6,7 +6,8 @@ import EntSongs from './buckets/entSongs';
 function BucketsSwitch() {
 
   let component
-  switch (window.location.pathname) {
+  let location=window.location.pathname;
+  switch (location) {
     case '/entSongs':
         component=<EntSongs/>
         break;

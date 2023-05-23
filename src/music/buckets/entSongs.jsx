@@ -8,7 +8,7 @@ import React, { useState , useEffect} from 'react';
 import './buckets.css';
 
 function EntSongs() {
-  const address='http://localhost:3001'+window.location.pathname;
+  const address='http://localhost:3002'+window.location.pathname;
   
   const [users, setUsers] = useState([]);
   const [deletes, setDelete] = useState([]);
