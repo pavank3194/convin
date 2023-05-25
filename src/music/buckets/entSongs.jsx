@@ -5,10 +5,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import React, { useState , useEffect} from 'react';
 
+
 import './buckets.css';
 
 function EntSongs() {
-  const address='http://localhost:3001'+window.location.pathname;
+  const address='http://localhost:3001/entSongs';
   
   const [users, setUsers] = useState([]);
   const [deletes, setDelete] = useState([]);
@@ -72,7 +73,6 @@ function EntSongs() {
   }
 
   
-
   return (
     <div className='cards-content'>
       <form onSubmit={handleSubmit} >
@@ -114,8 +114,8 @@ function EntSongs() {
                 }}>Save</button>
                 <button onClick={() => setEditCard(null)}>Cancel</button>
             </div>
-        ) : (
-              <a href={user.link} className='cardname'>{user.name}</a>
+        ) : ( 
+              <a href={user.link} className='cardname' >{user.name}</a>
         )}
               <i className="fas fa-trash-alt" onClick={() => handleDelete(user.id)}></i>
               <i className="fas fa-edit" onClick={() => setEditCard(user.id)}></i>
@@ -123,6 +123,7 @@ function EntSongs() {
           ))}
         </ul>
     </div>
+    
   );
 }
 
