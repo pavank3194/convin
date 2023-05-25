@@ -7,23 +7,6 @@ import { HashRouter as Router, Routes , Route } from 'react-router-dom';
 
 function BucketsSwitch() {
 
-  // let component
-  // switch (window.location.pathname) {
-  //   case '/entSongs':
-  //       component=<EntSongs/>
-  //       break;
-  //   case '/entVideos':
-  //       component=<EntSongs/>
-  //       break;
-  //   case '/dvtSongs':
-  //       component=<EntSongs/>
-  //       break;
-  //   case '/eduVideos':
-  //       component=<EntSongs/>
-  //       break;
-  //   default :
-  //       component=<Bucket/>
-  // }
   return (
     <div>
     <Router>

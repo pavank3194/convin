@@ -10,7 +10,6 @@ import './buckets.css';
 
 function EntSongs() {
   const address='http://localhost:3001/entSongs';
-  
   const [users, setUsers] = useState([]);
   const [deletes, setDelete] = useState([]);
   const [editCard, setEditCard] = useState(null);
